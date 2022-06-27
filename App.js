@@ -5,6 +5,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Olá mundo!</Text>
+      <Text>Bernardo Biesseck</Text>
+      
       <StatusBar style="auto" />
     </View>
   );
@@ -13,7 +15,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#00CC99',
     alignItems: 'center',
     justifyContent: 'center',
   },
